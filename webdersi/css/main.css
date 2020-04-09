@@ -1,0 +1,32 @@
+.body {
+   background: black;
+}
+.bg {
+    background: linear-gradient(to right,rgba(252, 222, 190,0.5) 55%,rgba(37, 137, 189,0.5)),
+    url("../image/bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 63vh;
+    clip-path: polygon(0% 0%,100% 0%,100% 90%,50% 100%,0% 90%);
+}
+.container {
+    background: #333333;
+    text-align: center;
+}
+.content {
+    background: #333333;
+}
+.title {
+    margin: 42px 0;
+    background: linear-gradient(300deg,rgb(37,137,189) 50%,rgb(252, 222, 190) 50%);
+    font-size: 120px;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.content-text {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #2589BD;
+}
+.text-part {
+    color: #FCDEBE
+}
